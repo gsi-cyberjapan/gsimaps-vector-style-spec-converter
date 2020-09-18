@@ -27,6 +27,8 @@
 
 [地理院地図Vector（仮称） style.json変換サイト](https://gsi-cyberjapan.github.io/gsimaps-vector-style-spec-converter)
 
+![変換サイトのイメージ](readme/img/site.png "変換サイトのイメージ")
+
 ### 変換サイトの使い方
 
 *	変換サイトにアクセスした後、地図をお好みのデザインに変更します。変換サイト上でデザインの編集ができるほか、地理院地図Vectorで作成し、保存したstyle.jsonを取り込むこともできます。
