@@ -251,10 +251,11 @@ var getMapStyle = function() {
         resultsstyle.sources = mysources;
         
         //spriteを追加
-        var spriteType = "pale"; //vpale, vblank, v2pale, v2blank
+        var spriteType = "std"; //vstd, vlabel, lvlabel, v2std, light, kana
         var hash_keys = Object.keys(GSIBV.application._map._layerList._hash);
-        if(hash_keys.includes("vstd")|hash_keys.includes("vlabel")|hash_keys.includes("lvlabel")|hash_keys.includes("v2std")|hash_keys.includes("light")|hash_keys.includes("kana")){
-                spriteType = "std";
+                   
+        if(hash_keys.includes("vpale")|hash_keys.includes("vblank")|hash_keys.includes("v2pale")|hash_keys.includes("v2blank")){
+                spriteType = "pale";
         }
         resultsstyle.sprite = "https://gsi-cyberjapan.github.io/gsivectortile-mapbox-gl-js/sprite/" + spriteType;
         
